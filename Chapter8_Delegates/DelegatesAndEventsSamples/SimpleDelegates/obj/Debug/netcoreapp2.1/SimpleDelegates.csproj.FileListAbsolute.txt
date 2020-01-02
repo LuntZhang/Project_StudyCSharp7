@@ -1,0 +1,11 @@
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\bin\Debug\netcoreapp2.1\SimpleDelegates.deps.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\bin\Debug\netcoreapp2.1\SimpleDelegates.runtimeconfig.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\bin\Debug\netcoreapp2.1\SimpleDelegates.runtimeconfig.dev.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\bin\Debug\netcoreapp2.1\SimpleDelegates.dll
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\bin\Debug\netcoreapp2.1\SimpleDelegates.pdb
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\obj\Debug\netcoreapp2.1\SimpleDelegates.csprojAssemblyReference.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\obj\Debug\netcoreapp2.1\SimpleDelegates.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\obj\Debug\netcoreapp2.1\SimpleDelegates.AssemblyInfoInputs.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\obj\Debug\netcoreapp2.1\SimpleDelegates.AssemblyInfo.cs
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\obj\Debug\netcoreapp2.1\SimpleDelegates.dll
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\SimpleDelegates\obj\Debug\netcoreapp2.1\SimpleDelegates.pdb

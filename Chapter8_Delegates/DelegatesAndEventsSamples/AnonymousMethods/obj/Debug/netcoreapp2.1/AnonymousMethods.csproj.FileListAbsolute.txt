@@ -1,0 +1,10 @@
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\bin\Debug\netcoreapp2.1\AnonymousMethods.deps.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\bin\Debug\netcoreapp2.1\AnonymousMethods.runtimeconfig.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\bin\Debug\netcoreapp2.1\AnonymousMethods.runtimeconfig.dev.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\bin\Debug\netcoreapp2.1\AnonymousMethods.dll
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\bin\Debug\netcoreapp2.1\AnonymousMethods.pdb
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\obj\Debug\netcoreapp2.1\AnonymousMethods.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\obj\Debug\netcoreapp2.1\AnonymousMethods.AssemblyInfoInputs.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\obj\Debug\netcoreapp2.1\AnonymousMethods.AssemblyInfo.cs
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\obj\Debug\netcoreapp2.1\AnonymousMethods.dll
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\AnonymousMethods\obj\Debug\netcoreapp2.1\AnonymousMethods.pdb

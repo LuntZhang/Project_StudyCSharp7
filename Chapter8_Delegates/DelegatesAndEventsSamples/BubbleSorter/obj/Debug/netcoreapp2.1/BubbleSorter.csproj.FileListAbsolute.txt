@@ -1,0 +1,10 @@
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\bin\Debug\netcoreapp2.1\BubbleSorter.deps.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\bin\Debug\netcoreapp2.1\BubbleSorter.runtimeconfig.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\bin\Debug\netcoreapp2.1\BubbleSorter.runtimeconfig.dev.json
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\bin\Debug\netcoreapp2.1\BubbleSorter.dll
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\bin\Debug\netcoreapp2.1\BubbleSorter.pdb
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\obj\Debug\netcoreapp2.1\BubbleSorter.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\obj\Debug\netcoreapp2.1\BubbleSorter.AssemblyInfoInputs.cache
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\obj\Debug\netcoreapp2.1\BubbleSorter.AssemblyInfo.cs
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\obj\Debug\netcoreapp2.1\BubbleSorter.dll
+D:\WorkSpace\Project_StudyCSharp7\Chapter8_Delegates\DelegatesAndEventsSamples\BubbleSorter\obj\Debug\netcoreapp2.1\BubbleSorter.pdb
