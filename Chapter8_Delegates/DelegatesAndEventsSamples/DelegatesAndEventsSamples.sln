@@ -5,13 +5,17 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDelegates", "SimpleDelegates\SimpleDelegates.csproj", "{66916BE3-1CDE-4CA2-9412-16A9A0F5BC73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSorter", "BubbleSorter\BubbleSorter.csproj", "{B4E69B31-582A-4BC6-A417-4CF58C303AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSorter", "BubbleSorter\BubbleSorter.csproj", "{B4E69B31-582A-4BC6-A417-4CF58C303AB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegates", "MulticastDelegates\MulticastDelegates.csproj", "{F1918628-A0C6-4713-95A3-37C6574C3168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MulticastDelegates", "MulticastDelegates\MulticastDelegates.csproj", "{F1918628-A0C6-4713-95A3-37C6574C3168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegatesUsingInvocationList", "MulticastDelegatesUsingInvocationList\MulticastDelegatesUsingInvocationList.csproj", "{FCDDF9C1-F47C-46EA-BAA6-A6F58EB78592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MulticastDelegatesUsingInvocationList", "MulticastDelegatesUsingInvocationList\MulticastDelegatesUsingInvocationList.csproj", "{FCDDF9C1-F47C-46EA-BAA6-A6F58EB78592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{DDF5BDC3-7BFE-4B34-8690-2577AAA25A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousMethods", "AnonymousMethods\AnonymousMethods.csproj", "{DDF5BDC3-7BFE-4B34-8690-2577AAA25A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{680A3934-577F-46D6-BE13-AF8F7C2C7034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsSample", "EventsSample\EventsSample.csproj", "{B8335CD0-2BA0-4A34-8E83-817FF9CC736E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{DDF5BDC3-7BFE-4B34-8690-2577AAA25A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF5BDC3-7BFE-4B34-8690-2577AAA25A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF5BDC3-7BFE-4B34-8690-2577AAA25A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680A3934-577F-46D6-BE13-AF8F7C2C7034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680A3934-577F-46D6-BE13-AF8F7C2C7034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680A3934-577F-46D6-BE13-AF8F7C2C7034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680A3934-577F-46D6-BE13-AF8F7C2C7034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8335CD0-2BA0-4A34-8E83-817FF9CC736E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8335CD0-2BA0-4A34-8E83-817FF9CC736E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8335CD0-2BA0-4A34-8E83-817FF9CC736E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8335CD0-2BA0-4A34-8E83-817FF9CC736E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
