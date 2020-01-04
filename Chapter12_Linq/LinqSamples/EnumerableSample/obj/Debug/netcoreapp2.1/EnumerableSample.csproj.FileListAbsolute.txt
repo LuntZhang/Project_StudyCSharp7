@@ -1,0 +1,14 @@
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\EnumerableSample.deps.json
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\EnumerableSample.runtimeconfig.json
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\EnumerableSample.runtimeconfig.dev.json
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\EnumerableSample.dll
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\EnumerableSample.pdb
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\DataLib.dll
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\bin\Debug\netcoreapp2.1\DataLib.pdb
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.csprojAssemblyReference.cache
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.AssemblyInfoInputs.cache
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.AssemblyInfo.cs
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.csproj.CopyComplete
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.dll
+D:\WorkSpace\Project_CSharp7\LINQ\LinqSamples\EnumerableSample\obj\Debug\netcoreapp2.1\EnumerableSample.pdb
