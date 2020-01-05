@@ -291,6 +291,7 @@ namespace EnumerableSample
              * 可以把该结果与其他扩展方法合并起来，获得另一个结果，例
              * var values = Enumerable.Range(1,20).Select(n=>n*3);
              * 
+             * 
              * Empty()方法返回一个不返回值得迭代器，它可以用于需要一个集合的参数，
              * 其中可以给参数传递空集合。
              * 
