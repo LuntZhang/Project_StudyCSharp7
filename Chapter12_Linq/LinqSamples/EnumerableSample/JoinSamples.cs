@@ -50,8 +50,10 @@ namespace EnumerableSample
             });
         }
 
+        // 内连接
         public static void InnerJoin()
         {
+            // 查询赛车手
             var racers = from r in Formula1.GetChampions()
                          from y in r.Years
                          select new
@@ -59,7 +61,7 @@ namespace EnumerableSample
                              Year = y,
                              Name = r.FirstName + " " + r.LastName
                          };
-
+            // 查询车队
             var teams = from t in Formula1.GetConstructorChampions()
                         from y in t.Years
                         select new
@@ -67,7 +69,7 @@ namespace EnumerableSample
                             Year = y,
                             t.Name
                         };
-
+            // 再通过join子句，根据赛车手获得冠军的年份和车队获得冠军的年份进行连接
             var racersAndTeams =
                   (from r in racers
                    join t in teams on r.Year equals t.Year
@@ -88,6 +90,10 @@ namespace EnumerableSample
 
         public static void InnerJoinWithMethods()
         {
+            /*
+             * 调用Join方法，通过第一个参数传递车队，把他们与赛车手连接起来，
+             * 指定外部和内部集合的关键字选择器，并通过最后一个参数定义结果选择器。
+             */
             var racers = Formula1.GetChampions()
                 .SelectMany(r => r.Years, (r1, year) =>
                 new
@@ -123,6 +129,94 @@ namespace EnumerableSample
             }
         }
 
+        // 左外连接
+        public static void LeftOuterJoin()
+        {
+            var racers = from r in Formula1.GetChampions()
+                         from y in r.Years
+                         select new
+                         {
+                             Year = y,
+                             Name = r.FirstName + " " + r.LastName
+                         };
+
+            var teams = from t in Formula1.GetConstructorChampions()
+                        from y in t.Years
+                        select new
+                        {
+                            Year = y,
+                            t.Name
+                        };
+            /*
+             * 左外连接用join子句和DefaultIfEmpty的方法定义。
+             * 如果查询的左侧（赛车手）没有匹配的车队冠军，
+             * 就使用DefaultIfEmpty方法定义其右侧默认值。
+             */
+            var racersAndTeams =
+              (from r in racers
+               join t in teams on r.Year equals t.Year into rt
+               from t in rt.DefaultIfEmpty()
+               orderby r.Year
+               select new
+               {
+                   r.Year,
+                   Champion = r.Name,
+                   Constructor = t == null ? "no constructor championship" : t.Name
+               }).Take(10);
+
+            Console.WriteLine("Year  Champion\t\t   Constructor Title");
+            foreach (var item in racersAndTeams)
+            {
+                Console.WriteLine($"{item.Year}: {item.Champion,-20} {item.Constructor}");
+            }
+        }
+
+        public static void LeftOuterJoinWithMethods()
+        {
+            var racers = Formula1.GetChampions()
+                .SelectMany(r => r.Years, (r1, year) =>
+                new
+                {
+                    Year = year,
+                    Name = $"{r1.FirstName} {r1.LastName}"
+                });
+
+            var teams = Formula1.GetConstructorChampions()
+                .SelectMany(t => t.Years, (t, year) =>
+                new
+                {
+                    Year = year,
+                    Name = t.Name
+                });
+
+            var racersAndTeams =
+                racers.GroupJoin(
+                    teams,
+                    r => r.Year,
+                    t => t.Year,
+                    (r, ts) => new
+                    {
+                        Year = r.Year,
+                        Champion = r.Name,
+                        Constructors = ts
+                    })
+                    .SelectMany(
+                        item => item.Constructors.DefaultIfEmpty(),
+                        (r, t) => new
+                        {
+                            Year = r.Year,
+                            Champion = r.Champion,
+                            Constructor = t?.Name ?? "no constructor championship"
+                        });
+
+            Console.WriteLine("Year  Champion\t\t   Constructor Title");
+            foreach (var item in racersAndTeams)
+            {
+                Console.WriteLine($"{item.Year}: {item.Champion,-20} {item.Constructor}");
+            }
+        }
+
+        // 组连接
         public static void GroupJoin()
         {
             var racers = from cs in Formula1.GetChampionships()
@@ -192,86 +286,5 @@ namespace EnumerableSample
             }
         }
 
-        public static void LeftOuterJoinWithMethods()
-        {
-            var racers = Formula1.GetChampions()
-                .SelectMany(r => r.Years, (r1, year) =>
-                new
-                {
-                    Year = year,
-                    Name = $"{r1.FirstName} {r1.LastName}"
-                });
-
-            var teams = Formula1.GetConstructorChampions()
-                .SelectMany(t => t.Years, (t, year) =>
-                new
-                {
-                    Year = year,
-                    Name = t.Name
-                });
-
-            var racersAndTeams =
-                racers.GroupJoin(
-                    teams,
-                    r => r.Year,
-                    t => t.Year,
-                    (r, ts) => new
-                    {
-                        Year = r.Year,
-                        Champion = r.Name,
-                        Constructors = ts
-                    })
-                    .SelectMany(
-                        item => item.Constructors.DefaultIfEmpty(),
-                        (r, t) => new
-                        {
-                            Year = r.Year,
-                            Champion = r.Champion,
-                            Constructor = t?.Name ?? "no constructor championship"
-                        });
-
-            Console.WriteLine("Year  Champion\t\t   Constructor Title");
-            foreach (var item in racersAndTeams)
-            {
-                Console.WriteLine($"{item.Year}: {item.Champion,-20} {item.Constructor}");
-            }
-        }
-
-        public static void LeftOuterJoin()
-        {
-            var racers = from r in Formula1.GetChampions()
-                         from y in r.Years
-                         select new
-                         {
-                             Year = y,
-                             Name = r.FirstName + " " + r.LastName
-                         };
-
-            var teams = from t in Formula1.GetConstructorChampions()
-                        from y in t.Years
-                        select new
-                        {
-                            Year = y,
-                            t.Name
-                        };
-
-            var racersAndTeams =
-              (from r in racers
-               join t in teams on r.Year equals t.Year into rt
-               from t in rt.DefaultIfEmpty()
-               orderby r.Year
-               select new
-               {
-                   r.Year,
-                   Champion = r.Name,
-                   Constructor = t == null ? "no constructor championship" : t.Name
-               }).Take(10);
-
-            Console.WriteLine("Year  Champion\t\t   Constructor Title");
-            foreach (var item in racersAndTeams)
-            {
-                Console.WriteLine($"{item.Year}: {item.Champion,-20} {item.Constructor}");
-            }
-        }
     }
 }

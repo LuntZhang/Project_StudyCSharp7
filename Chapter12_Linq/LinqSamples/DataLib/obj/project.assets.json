@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\DataLib.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\DataLib.csproj",
       "projectName": "DataLib",
-      "projectPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\DataLib.csproj",
+      "projectPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\DataLib.csproj",
       "packagesPath": "C:\\Users\\LuntZhang\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\obj\\",
+      "outputPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

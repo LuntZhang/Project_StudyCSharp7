@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\LinqIntro\\LinqIntro.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\LinqIntro\\LinqIntro.csproj",
       "projectName": "LinqIntro",
-      "projectPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\LinqIntro\\LinqIntro.csproj",
+      "projectPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\LinqIntro\\LinqIntro.csproj",
       "packagesPath": "C:\\Users\\LuntZhang\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\LinqIntro\\obj\\",
+      "outputPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\LinqIntro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\DataLib.csproj": {
-              "projectPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\DataLib.csproj"
+            "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\DataLib.csproj": {
+              "projectPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\DataLib.csproj"
             }
           }
         }

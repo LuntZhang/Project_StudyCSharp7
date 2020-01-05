@@ -1703,11 +1703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\EnumerableSample\\EnumerableSample.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\EnumerableSample\\EnumerableSample.csproj",
       "projectName": "EnumerableSample",
-      "projectPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\EnumerableSample\\EnumerableSample.csproj",
+      "projectPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\EnumerableSample\\EnumerableSample.csproj",
       "packagesPath": "C:\\Users\\LuntZhang\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\EnumerableSample\\obj\\",
+      "outputPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\EnumerableSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1726,8 +1726,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\DataLib.csproj": {
-              "projectPath": "D:\\WorkSpace\\Project_CSharp7\\LINQ\\LinqSamples\\DataLib\\DataLib.csproj"
+            "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\DataLib.csproj": {
+              "projectPath": "D:\\WorkSpace\\Project_StudyCSharp7\\Chapter12_Linq\\LinqSamples\\DataLib\\DataLib.csproj"
             }
           }
         }
